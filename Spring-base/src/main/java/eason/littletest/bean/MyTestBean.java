@@ -25,7 +25,7 @@ public class MyTestBean {
             String resourceUrl = myTestBean.getClass().getClassLoader().getResource("").getPath();
             System.out.println(resourceUrl);
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
 
     }
